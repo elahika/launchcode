@@ -1,0 +1,93 @@
+<div class="tabs-container">
+
+    <div class="tabs-top">
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#tab-1"> Welcome</a></li>
+            <li class=""><a data-toggle="tab" href="#tab-3">Features</a></li>
+            <li class=""><a data-toggle="tab" href="#tab-2">Implementation Details</a></li>
+            <li class=""><a data-toggle="tab" href="#tab-4">About Angular 2</a></li>
+        </ul>
+        <div class="tab-content ">
+            <div id="tab-1" class="tab-pane active">
+                <div class="panel-body">
+                    <strong>Welcome to RSIMU</strong>
+                    <br>
+                    <p>A wonderful web app to get the most recent information about the stock data of
+                       the biggest companies in the USA.</p>
+                    <p>RSIMU helps you to make decision on stock investment by visualizing the historical stock price</p>
+                    <p><b>To get started</b> click on any menu item on the left, such as Microsost Corporation. The stock information for that item is retrieved from the <a target="_blank" href="https://www.quandl.com/data/EOD?keyword=microsoft"> Quandle API</a>,
+                    and visualized in two views: table and plot.</p>
+                    <p>Currently the plot view compares two columns, "open price" vs "high price".
+                </div>
+            </div>
+            <div id="tab-2" class="tab-pane">
+                <div class="panel-body">
+                    <strong>How does it work</strong>
+
+                    <strong>How is it implemented</strong>
+
+                </div>
+            </div>
+            <div id="tab-3" class="tab-pane">
+                <div class="panel-body">
+                    <strong>Implemented Features</strong>
+                    <p>In this project, the following features are implemented:</p>
+                    <ul>
+                      <li><strong>Authentication</strong>: Login, Register</li>
+                      <li><strong>Routing</strong> in a single page app</li>
+                      <li> <strong>API connection</strong> using subscription</li>
+                      <li> <strong>Data visualization</strong> in Table and Plot  </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="tab-4" class="tab-pane">
+                <div class="panel-body">
+                  <strong></strong>
+                  <p>This project is implemented using the most recent version of <a target="_blank" href="https://angular.io/docs/ts/latest/">Angular 2</a>. During the development of this project, Angular2 was still under beta version, and I needed to keep updating. However, I found it easy to learn and well-designed. The most interesting
+                    part for me is the how the concept of reactivity is implemented via "Observable" type, which  I used in this project.
+                     Here are some of design goals and features of Angular 2 (compared to Angularjs)*: </p>
+                  <ul>
+                    <li>Much improved performance</li>
+                    <li>Improved modularity</li>
+                    <li>Improved Dependency injection</li>
+                    <li>Web component friendly</li>
+                    <li>Support for Shadow DOM</li>
+                    <li>Support for <strong>native</strong> mobile rendering in Android and iOs</li>
+                    <li>Support for server side rendering </li>
+                    <li>Improved testability</li>
+                  </ul>
+                  *<small>According to <a target="_blank" href="http://blog.angular-university.io/introduction-to-angular2-the-main-goals/">this</a> blog.</small>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<!-- <div class="wrapper wrapper-content">
+    <div class="middle-box animated fadeInRightBig">
+        <h3 class="font-bold">Welcome to RSIMU</h3>
+        <div class="error-desc">
+            <strong>About this project</strong>
+              I built this project to learn about the newest concepts in web programming. The front end is built under
+              Angular 2 which is released recently. I have learned and used the concept of reactive programming, which is implemented in Angular 2 with Observables.
+              To get started click on the any item on the right. The stock price for each item is retrieved from the Quandle API,
+              and shown to you in two views: table and plot.
+              <p>The interesting part is that, this is a single-page app using routing feature of Angular 2 to show you different view.
+              Also, the switches are handled at the client side using the reactive concept. Which means the code is only executed when the
+              parameters has changed. </p>
+              <p>The features I have implemented are:</p>
+              <br> login and Authorizatioin
+              <br>Routing in a single page app
+              <br> API connection
+              <br> table and plot view
+              <p> The following are the concept directly related to Angular 2, which I have learned and used in this project:
+              <br> Using Observable for reactive programming
+              <br> Using services
+              <br> Using routers
+
+            <br>The stock data is fetched from <a href="Quandle.com" >Quandle</a> website.
+      <br><a href="index.html" class="btn btn-primary m-t"></a>
+        </div>
+    </div>
+</div> -->
